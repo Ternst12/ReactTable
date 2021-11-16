@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+table {
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: medium;
+
+}
+
+table th {
+  border-collapse: separate;
+  border-spacing: 50px 0; 
+  text-transform: capitalize;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th, tfoot td {
+  font-size: large;
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ddd ;
+  
+}
+
+input {
+  height:40px; 
+  width: 20%; 
+  border-radius: 10px; 
+  border: lightblue 1px solid;
+  font-size: 20px; 
+  padding-left: 10px;
+
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #719ECE;
+}
